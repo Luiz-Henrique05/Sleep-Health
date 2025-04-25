@@ -13,7 +13,7 @@ Este projeto tem como objetivo armazenar, consultar e analisar dados de paciente
 - Consultas por ocupação e distúrbio do sono
 - Estatísticas gerais com médias
 - Médias agrupadas por categoria (IMC, ocupação, distúrbio)
-- Simulador de qualidade de sono (com penalidade por distúrbio)
+- Simulador de qualidade de sono
 - Exportação para CSV
 - Backup automático do banco
 
@@ -62,7 +62,7 @@ python main.py
 ## 🧪 Dataset Utilizado
 
 - Dataset: `Sleep Health and Lifestyle Dataset`
-- Origem: fictícia / acadêmica
+- Origem: (https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset)
 - Contém informações de 374 pacientes
 
 ---
