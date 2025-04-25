@@ -27,16 +27,16 @@ A tabela `pacientes` contém os seguintes campos:
 |---------------------|----------|----------------------------------------|
 | id                  | INTEGER  | Identificador único                   |
 | idade               | INTEGER  | Idade do paciente                     |
-| genero              | TEXT     | Gênero (Masculino/Feminino)           |
+| genero              | TEXT     | Gênero (Male/Female)                  |
 | ocupacao            | TEXT     | Ocupação profissional                  |
 | duracao_sono        | REAL     | Duração média de sono (em horas)       |
 | qualidade_sono      | INTEGER  | Qualidade (escala de 1 a 10)           |
-| atividade_fisica    | INTEGER  | Nível de atividade física              |
+| atividade_fisica    | INTEGER  | Nível de atividade física (1 a 100)    |
 | nivel_estresse      | INTEGER  | Nível de estresse (1 a 10)             |
 | categoria_bmi       | TEXT     | Categoria de IMC                      |
 | frequencia_cardiaca | INTEGER  | Batimentos por minuto                  |
 | passos_diarios      | INTEGER  | Média de passos por dia                |
-| dist_sono           | TEXT     | Distúrbio do sono (None, Insomnia...) |
+| dist_sono           | TEXT     | Distúrbio do sono (None, Insomnia e Sleep Apnea) |
 
 ---
 
@@ -87,4 +87,4 @@ python main.py
 
 ## ✍️ Autor
 
-Projeto acadêmico / portfólio desenvolvido por [Seu Nome]
+Projeto acadêmico desenvolvido por Luiz Henrique
