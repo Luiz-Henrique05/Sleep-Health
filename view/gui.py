@@ -44,6 +44,8 @@ class App:
             self.tela_boas_vindas()
         else:
             self.login_msg.configure(text="Usuário ou senha inválidos.")
+            if not self.login_msg.winfo_ismapped():
+                self.login_msg.pack(pady=(0, 10))
 
     def register_page(self):
         register_page.tela_cadastro(self, register=register)
